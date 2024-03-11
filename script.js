@@ -68,7 +68,7 @@ if (result === 'Tie.') {
 }
 
 document.querySelector('.js-moves').
-innerHTML=`You <img src="${playerMove}.png" class="move-icon-result" style="background-color:${you_move};">  <img src="${computerMove}.png" class="move-icon-result" style="background-color:${Computer_move};"> Computer`;
+innerHTML=`You <img src="${playerMove}.png" class="move-icon-result-you" style="background-color:${you_move};"> - <img src="${computerMove}.png" class="move-icon-result-computer" style="background-color:${Computer_move};"> Computer`;
 }
 function updateScoreElement()
 {
